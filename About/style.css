@@ -14,10 +14,11 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 /* Contents & Menus Style */
 .container{
-    width: 100%;
+    width: max(100% - 15px, 1180px);
+    margin-inline: auto;
     background-color: #eef0f8;
     overflow-x: hidden;
-    color: #1E1E1E;
+    color: #171515;
 }
 .container header{
     width: 100%;
@@ -75,13 +76,14 @@ nav ul li a{
     font-size: 20px;
     padding: 10px 25px;
     font-weight:500;
-    color: #1E1E1E;
+    color: #171515;
 }
 nav ul li a:hover{
     color: #ff5967;
 }
 .container .main{
-    width: 100%;
+    width: max(100% - 15px, 1000px);
+    margin-inline: auto;
     height: 80vh;
     justify-content: center;
 }
